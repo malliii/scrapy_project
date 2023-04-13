@@ -1,6 +1,7 @@
 import scrapy
 
 
+# creating a class GameItem
 class GameItem(scrapy.Item):
     title = scrapy.Field()
     meta_score = scrapy.Field()
